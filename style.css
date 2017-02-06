@@ -1,0 +1,218 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.user-text {
+  margin-bottom: 10px;
+  padding: 6px 12px;
+  float: right;
+  border-radius: 20px;
+  background-color: #0084ff;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+
+.user-box {
+  max-width: 432px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  float: right;
+  clear: both;
+}
+
+.bot-box {
+	/*float: left;*/
+	width: 90%;
+  max-width: 432px;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  clear: both;
+      background-image: url(./boticon.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding-left: 32px;
+}
+
+.bot-box.botboxslide {
+  max-width: 100%;
+  margin-right: 10px;
+}
+
+.bot-text {
+	/*float: left;*/
+  margin-bottom: 2px;
+  padding: 6px 12px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #f1f0f0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+.chatbox {
+  display: block;
+  width: 60%;
+  margin-right: auto;
+  margin-bottom: 105px;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+.bot-button {
+  display:block;
+  text-decoration: none;
+  margin-bottom: 2px;
+  padding: 10px 12px;
+  clear: both;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, .1);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #fff;
+  font-family: 'Noto Sans', sans-serif;
+  color: #0084ff;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+
+
+.bot-button.top {
+  margin-bottom: 0px;
+  border-bottom-style: none;
+  border-bottom-right-radius: 0px;
+}
+
+.bot-button.mid {
+  margin-bottom: 0px;
+  border-top-style: solid;
+  border-bottom-style: none;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.bot-button.bottom {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 20px;
+}
+
+.bot-button.bottom.cardbutton {
+  border-bottom-right-radius: 5px;
+}
+
+.bot-button.captiontitle {
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  border-bottom-style: none;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  color: #000;
+  font-size: 15px;
+  text-align: left;
+}
+
+.bot-button.imagetitle {
+  height: 130px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 0px;
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.bot-button.imagetitle.imgcard {
+  background-image: url("./sliderImg.png");
+  background-size: cover;
+}
+
+.sl1 {
+  width: 415px;
+  background-color: #0098ff;
+}
+
+.sl2 {
+  background-color: #d600ff;
+}
+
+.dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 5px;
+  border-radius: 5px;
+  background-color: #a7a7a7;
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+
+
+}
+
+.dot.d2 {
+    -webkit-animation-delay: 0.1s; /* Safari 4.0 - 8.0 */
+    animation-delay: 0.1s;
+
+
+}
+
+.dot.d3 {
+    -webkit-animation-delay: 0.2s; /* Safari 4.0 - 8.0 */
+    animation-delay: 0.2s;
+
+
+}
+
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 2px);}
+    65% {-webkit-transform:translate(0, -4px);}
+    to {-webkit-transform: translate(0, 2px);    }    
+}
+    
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 2px);}
+    65% {-moz-transform:translate(0, -4px);}
+    to {-moz-transform: translate(0, 2px);}    
+}
+
+
+.captionsubtitle {
+  padding-top: 2px;
+  color: rgba(0, 0, 0, .5);
+  font-weight: 400;
+}
+
+
+.typing{
+	width: 50px;
+}
+.bot-avatar.avatartyping {
+  left: 0px;
+  top: 0px;
+  margin-right: 10px;
+  margin-left: -30px;
+  float: left;
+}
+
+
+.bot-image {
+width: 90%;
+  border-radius: 40px;
+}
